@@ -136,7 +136,37 @@ display: flex;
 flex-basis: 275px;
 }
 
+
+nav header {
+  position: fixed;
+  top: 0;
 }
+
+#pricing header {
+  position: unset;
+}
+
+
+/* @keyframes logo_wiggle {
+  from {
+    width: 25px;
+    opacity: 0;
+  }
+  to {
+    width: 475px;
+    opacity: 1;
+  }
+ }
+ #logo {
+  animation-name: logo_wiggle;
+  animation-duration: 5s;
+ } */
+
+} 
+
+
+
+
 
 @media (prefers-reduced-motion: reduce) {
 
@@ -160,11 +190,18 @@ body {
  
 
 /* STEP 17 SPEC */
- .nav_links {
-   display: flex;
-   flex-direction: row;
-   justify-content: space-around;
- }
+.nav_links {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  column-width: 475px;
+}
+.nav_items {
+  justify-self: ;
+}
+/* nav {
+
+} */
  
  /* STEP 18 SPEC */
  .pricing {
@@ -172,7 +209,7 @@ body {
  align-items:flex-end;
  justify-content: baseline; */
  display: flex;
- align-items: baseline;
+ align-items: flex-end;
  /* flex-wrap: inherit; */
  flex-direction: row;
  flex-wrap: nowrap;
@@ -185,7 +222,7 @@ body {
  /* STEP 19 SPEC */
  .card{
  display: flex;
- vertical-align: baseline;
+ /* align-self: baseline; */
  border-radius: 50px 50px 0 0;
  border: 2px solid #45ADDD;
  flex-basis: 325;
