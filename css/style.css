@@ -21,7 +21,7 @@
 body {
  font-family:
    'Poppins', serif;
- background-image: url('../images/concrete_seamless.png') #f1f1f1;
+ background: url('../images/concrete_seamless.png') #f1f1f1;
 }
 
 /* STEP 3 SPEC */
