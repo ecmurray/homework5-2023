@@ -137,14 +137,14 @@ flex-basis: 275px;
 }
 
 
-nav header {
-  position: fixed;
+body > header {
+  position: sticky;
   top: 0;
 }
 
-#pricing header {
+/* #pricing header {
   position: unset;
-}
+} */
 
 
 /* @keyframes logo_wiggle {
@@ -163,9 +163,6 @@ nav header {
  } */
 
 } 
-
-
-
 
 
 @media (prefers-reduced-motion: reduce) {
